@@ -1,0 +1,15 @@
+{
+  "name": "founders-and-coders-website",
+  "version": "1.0.0",
+  "description": "website for application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "Rodrigo Fernandes",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}

@@ -1,0 +1,46 @@
+.header {
+    border-bottom: 1px solid var(--white);
+    margin: 3px 1.5rem;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo h1 {
+    font-family: Montez;
+    font-size: 4rem;
+    margin-left: 1rem;
+    transition: font-family 0.2s ease;
+
+}
+
+.logo h1:hover {
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+.menuItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    width: 25vw;
+    margin-right: 2vw;
+}
+
+.menuItem {
+    font-size: 2.5rem;
+    list-style-type: none
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+@media screen and (max-width: 430px) {
+    .menuItems {
+        width: 60vw;
+    }
+
+}
