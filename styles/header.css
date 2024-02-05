@@ -1,6 +1,7 @@
 .header {
     border-bottom: 1px solid var(--white);
     margin: 3px 1.5rem;
+    position: fixed;
     padding: 2px;
     display: flex;
     justify-content: space-between;
