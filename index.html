@@ -11,24 +11,32 @@
 <body>
     <header class="header">
         <nav class="logo">
-            <h1>RF</h1>
+            <a href="#intro">
+                <h1>RF</h1>
+            </a>
         </nav>
-        <nav class="menu">
-            <ul class="menuItems">
-                <li class="menuItem">About</li>
-                <li class="menuItem">Projects</li>
-                <li class="menuItem">Contact</li>
-            </ul>
+        <nav class="menuItems">
+            <a class="menuItem" href="#about">About</a>
+            <a class="menuItem" href="#projects">Projects</a>
+            <a class="menuItem" href="#contact">Contact</a>
         </nav>
     </header>
     <main>
-        <div class="home">
+        <div id="intro" class="home">
             <p>HELLO!<br />
                 I'M RODRIGO FERNANDES, SOFTWARE DEVELOPER STUDENT.
-                <span class="yellow">BASED IN LONDON.</span>
+                BASED IN LONDON.
                 WELCOME TO MY PORTFOLIO!
             </p>
         </div>
+        <div id="about">
+            <p>
+                After graduating back in Brazil, I went to teach for a couple of years before I landed in London. Little
+                I know that
+                it would change my life forever.
+            </p>
+        </div>
+        <div class="kitting" id="projects">Lets kite!</div>
     </main>
     <script src="index.js"></script>
 </body>

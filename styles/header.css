@@ -1,22 +1,24 @@
 .header {
-    border-bottom: 1px solid var(--white);
+    background-color: var(--main-bg-color);
+    border-bottom: 1px solid var(--yellow);
     margin: 3px 1.5rem;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     padding: 2px;
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-.logo h1 {
+.logo a h1 {
     font-family: Montez;
+    color: var(--white);
     font-size: 4rem;
     margin-left: 1rem;
-    transition: font-family 0.2s ease;
-
 }
 
-.logo h1:hover {
+.logo a:hover {
     cursor: pointer;
     color: var(--yellow);
 }
@@ -24,18 +26,22 @@
 .menuItems {
     display: flex;
     justify-content: space-between;
-    align-items: ;
     width: 25vw;
     margin-right: 2vw;
 }
 
 .menuItem {
+    color: var(--white);
     font-size: 2.5rem;
-    list-style-type: none
+    text-decoration: none;
 }
 
 .menuItem:hover {
     cursor: pointer;
+    color: var(--yellow);
+}
+
+nav a:active {
     color: var(--yellow);
 }
 
