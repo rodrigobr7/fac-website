@@ -21,14 +21,10 @@ main {
     main {
         margin-top: 5rem;
 
-        .home p {
-            font-size: 4rem;
-        }
     }
 
-
-    /* .home p {
+    .home p {
         font-size: 4rem;
-    } */
+    }
 
 }
